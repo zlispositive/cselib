@@ -17,9 +17,9 @@
 <body>
 	<div id="container">
 		<div id="logo">
-			<h1> Happy Reading</h1>
+			<h1> 阅读空间 </h1>
 			<!-- <h3>By &nbsp; Ling&lt;&gt;Zhang</h3> -->
-			<h3>By the Department of Control Science and Engineering</h3>
+			<h3>浙江大学 控制科学与工程系</h3>
 		</div>
 		<header>
 			<div id="view-buttons">
@@ -29,13 +29,13 @@
 			</div>
 			<div id="search-bar">
 				{% if q %}
-				<input type="input" name='q' id='q' placeholder="Search a book" autocomplete="off" value="{{ q }}">
+				<input type="input" name='q' id='q' placeholder="搜索一本书" autocomplete="off" value="{{ q }}">
 				{% else %}
-				<input type="input" name='q' id='q' placeholder="Search a book" autocomplete="off">
+				<input type="input" name='q' id='q' placeholder="搜索一本书" autocomplete="off">
 				{% endif %}
 				<span class="icon-search"></span>
 			</div>
-			<button id="search-button">Search</button>
+			<button id="search-button">搜索</button>
 		</header>
 
 		<div id="book-container" class="tile-small">
